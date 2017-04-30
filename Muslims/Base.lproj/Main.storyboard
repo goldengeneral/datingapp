@@ -329,6 +329,98 @@ and we’ll send you a confirmation.</string>
             </objects>
             <point key="canvasLocation" x="3349.5999999999999" y="119.1904047976012"/>
         </scene>
+        <!--Enter Phone View Controller-->
+        <scene sceneID="1qF-bn-7jK">
+            <objects>
+                <viewController storyboardIdentifier="EnterPhoneViewController" id="hfN-SI-89L" customClass="EnterPhoneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yNx-sE-Xhs"/>
+                        <viewControllerLayoutGuide type="bottom" id="tJe-nZ-03E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uJl-iU-Ynu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="uNr-HM-PKn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJV-xg-pQg">
+                                <rect key="frame" x="0.0" y="541" width="375" height="126"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your phone number to get started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myb-AC-bdc">
+                                        <rect key="frame" x="48" y="11" width="278" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="EVs-rQ-fLX"/>
+                                            <constraint firstAttribute="width" constant="278" id="etB-4h-4gD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvW-mR-00N">
+                                        <rect key="frame" x="18" y="54" width="29" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="29" id="84R-3G-eVK"/>
+                                            <constraint firstAttribute="height" constant="30" id="buB-aH-BhI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" red="0.1647058824" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feq-Go-bne">
+                                        <rect key="frame" x="50" y="54" width="297" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="pGP-wy-GWN"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STe-dL-zWh">
+                                        <rect key="frame" x="28" y="92" width="318" height="1"/>
+                                        <color key="backgroundColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="D5y-yd-FIo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.1647058824" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="STe-dL-zWh" secondAttribute="bottom" constant="33" id="7mE-G3-dya"/>
+                                    <constraint firstItem="STe-dL-zWh" firstAttribute="top" secondItem="feq-Go-bne" secondAttribute="bottom" constant="8" id="DPc-bK-ppJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="STe-dL-zWh" secondAttribute="trailing" constant="28.84" id="LWs-qG-WQB"/>
+                                    <constraint firstItem="STe-dL-zWh" firstAttribute="leading" secondItem="BJV-xg-pQg" secondAttribute="leading" constant="28.16" id="VL1-II-IkW"/>
+                                    <constraint firstItem="Myb-AC-bdc" firstAttribute="top" secondItem="BJV-xg-pQg" secondAttribute="top" constant="11" id="YD9-HW-0Si"/>
+                                    <constraint firstItem="Myb-AC-bdc" firstAttribute="centerX" secondItem="BJV-xg-pQg" secondAttribute="centerX" id="eKw-Cr-l87"/>
+                                    <constraint firstItem="AvW-mR-00N" firstAttribute="leading" secondItem="BJV-xg-pQg" secondAttribute="leading" constant="18" id="iUi-T1-tff"/>
+                                    <constraint firstAttribute="trailing" secondItem="feq-Go-bne" secondAttribute="trailing" constant="28" id="mGC-6r-VXC"/>
+                                    <constraint firstItem="STe-dL-zWh" firstAttribute="top" secondItem="AvW-mR-00N" secondAttribute="bottom" constant="8" id="mfu-Nb-ggX"/>
+                                    <constraint firstItem="feq-Go-bne" firstAttribute="leading" secondItem="AvW-mR-00N" secondAttribute="trailing" constant="3" id="nsy-nz-xFr"/>
+                                    <constraint firstAttribute="height" constant="126" id="veS-vo-XCp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uNr-HM-PKn" firstAttribute="top" secondItem="yNx-sE-Xhs" secondAttribute="bottom" id="2CL-BF-rox"/>
+                            <constraint firstItem="tJe-nZ-03E" firstAttribute="top" secondItem="BJV-xg-pQg" secondAttribute="bottom" id="FyN-Zg-GrZ"/>
+                            <constraint firstItem="tJe-nZ-03E" firstAttribute="top" secondItem="uNr-HM-PKn" secondAttribute="bottom" id="QKQ-PQ-YGp"/>
+                            <constraint firstAttribute="trailing" secondItem="BJV-xg-pQg" secondAttribute="trailing" id="WvT-8h-C6V"/>
+                            <constraint firstItem="BJV-xg-pQg" firstAttribute="leading" secondItem="uJl-iU-Ynu" secondAttribute="leading" id="gdY-Rk-Qbt"/>
+                            <constraint firstAttribute="trailing" secondItem="uNr-HM-PKn" secondAttribute="trailing" id="kla-we-Jgb"/>
+                            <constraint firstItem="uNr-HM-PKn" firstAttribute="leading" secondItem="uJl-iU-Ynu" secondAttribute="leading" id="zpF-jm-gH3"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K0x-Xi-tkc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="773.16341829085468"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg_login" width="375" height="387"/>
