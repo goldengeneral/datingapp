@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D8D13D0189E97B081822D44 /* libPods-Muslims.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */; };
+		A82EDBD81EB6597700727628 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82EDBD71EB6597700727628 /* ForgotPasswordViewController.m */; };
 		A84798941EB5B62100E19C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798931EB5B62100E19C9E /* main.m */; };
 		A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798961EB5B62100E19C9E /* AppDelegate.m */; };
 		A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798991EB5B62100E19C9E /* SplashViewController.m */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EB02C91455C7E66836C96C /* Pods-Muslims.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.debug.xcconfig"; sourceTree = "<group>"; };
+		A82EDBD61EB6597700727628 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordViewController.h; path = Controller/ForgotPassword/ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		A82EDBD71EB6597700727628 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordViewController.m; path = Controller/ForgotPassword/ForgotPasswordViewController.m; sourceTree = "<group>"; };
 		A847988F1EB5B62100E19C9E /* Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84798931EB5B62100E19C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A84798951EB5B62100E19C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +77,15 @@
 				42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A82EDBD51EB6594A00727628 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A82EDBD61EB6597700727628 /* ForgotPasswordViewController.h */,
+				A82EDBD71EB6597700727628 /* ForgotPasswordViewController.m */,
+			);
+			name = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		A84798861EB5B62100E19C9E = {
@@ -147,6 +159,7 @@
 		A84798AC1EB5B64C00E19C9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A82EDBD51EB6594A00727628 /* ForgotPassword */,
 				A889ECD51EB5C0E00016BB00 /* Signin */,
 				A84798B21EB5B9B400E19C9E /* MainHome */,
 				A84798B11EB5B9A800E19C9E /* Splash */,
@@ -352,6 +365,7 @@
 				A84798B81EB5BA1800E19C9E /* BaseViewController.m in Sources */,
 				A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */,
 				A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */,
+				A82EDBD81EB6597700727628 /* ForgotPasswordViewController.m in Sources */,
 				A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */,
 				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,
 				A84798941EB5B62100E19C9E /* main.m in Sources */,
