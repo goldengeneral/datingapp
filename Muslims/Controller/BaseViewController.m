@@ -23,10 +23,23 @@
     [super didReceiveMemoryWarning];
 }
 
+#pragma mark - Actions
+
+- (IBAction) onBackClicked:(id)sender {
+    [self.navigationController popViewControllerAnimated:TRUE];
+}
+
 #pragma mark - Helper methods
 
 - (void) initializeView {
-    
+    UIButton* backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButton setImage:[UIImage imageNamed:@"ic_back"] forState:UIControlStateNormal];
+    backButton.frame = CGRectMake(0, 0, 16, 12);
+    [backButton addTarget:self action:@selector(onBackClicked:) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem* backBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    self.navigationItem.hidesBackButton = TRUE;
+    self.navigationItem.backBarButtonItem = nil;
+    self.navigationItem.leftBarButtonItem = backBarButtonItem;
 }
 
 - (void) showMessage:(NSString*) message {

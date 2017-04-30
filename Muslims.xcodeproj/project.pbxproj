@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8D13D0189E97B081822D44 /* libPods-Muslims.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */; };
 		A84798941EB5B62100E19C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798931EB5B62100E19C9E /* main.m */; };
 		A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798961EB5B62100E19C9E /* AppDelegate.m */; };
 		A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798991EB5B62100E19C9E /* SplashViewController.m */; };
@@ -16,11 +17,12 @@
 		A84798B51EB5B9D600E19C9E /* MainHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798B41EB5B9D600E19C9E /* MainHomeViewController.m */; };
 		A84798B81EB5BA1800E19C9E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798B71EB5BA1800E19C9E /* BaseViewController.m */; };
 		A84798BC1EB5BD5100E19C9E /* Heiti.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A84798BB1EB5BD5100E19C9E /* Heiti.ttf */; };
-		F95DEC659EFA74B6746109C2 /* libPods-Muslims.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8629290C234931091C804E /* libPods-Muslims.a */; };
+		A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */; };
+		A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D8629290C234931091C804E /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EB02C91455C7E66836C96C /* Pods-Muslims.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.debug.xcconfig"; sourceTree = "<group>"; };
 		A847988F1EB5B62100E19C9E /* Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84798931EB5B62100E19C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		A84798B61EB5BA1800E19C9E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Controller/BaseViewController.h; sourceTree = "<group>"; };
 		A84798B71EB5BA1800E19C9E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Controller/BaseViewController.m; sourceTree = "<group>"; };
 		A84798BB1EB5BD5100E19C9E /* Heiti.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Heiti.ttf; sourceTree = "<group>"; };
+		A889ECD61EB5C0FE0016BB00 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = Controller/SignIn/SignInViewController.h; sourceTree = "<group>"; };
+		A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = Controller/SignIn/SignInViewController.m; sourceTree = "<group>"; };
+		A889ECDB1EB5CA130016BB00 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		FFE7D4C442AB5136CEB054C3 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95DEC659EFA74B6746109C2 /* libPods-Muslims.a in Frameworks */,
+				1D8D13D0189E97B081822D44 /* libPods-Muslims.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +71,7 @@
 		953DE18D96B5C2F54A6CC6F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D8629290C234931091C804E /* libPods-Muslims.a */,
+				42AA3DD9DED92BA5D2345E1C /* libPods-Muslims.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,6 +97,7 @@
 		A84798911EB5B62100E19C9E /* Muslims */ = {
 			isa = PBXGroup;
 			children = (
+				A889ECD91EB5C9F20016BB00 /* Lib */,
 				A84798BA1EB5BD2F00E19C9E /* Theme */,
 				A84798AD1EB5B65900E19C9E /* Common */,
 				A84798AA1EB5B64100E19C9E /* Model */,
@@ -140,6 +147,7 @@
 		A84798AC1EB5B64C00E19C9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A889ECD51EB5C0E00016BB00 /* Signin */,
 				A84798B21EB5B9B400E19C9E /* MainHome */,
 				A84798B11EB5B9A800E19C9E /* Splash */,
 				A84798B61EB5BA1800E19C9E /* BaseViewController.h */,
@@ -188,6 +196,33 @@
 				A84798BB1EB5BD5100E19C9E /* Heiti.ttf */,
 			);
 			name = Theme;
+			sourceTree = "<group>";
+		};
+		A889ECD51EB5C0E00016BB00 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				A889ECD61EB5C0FE0016BB00 /* SignInViewController.h */,
+				A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */,
+			);
+			name = Signin;
+			sourceTree = "<group>";
+		};
+		A889ECD91EB5C9F20016BB00 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A889ECDA1EB5CA130016BB00 /* UIColor */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		A889ECDA1EB5CA130016BB00 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				A889ECDB1EB5CA130016BB00 /* UIColor+Hex.h */,
+				A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */,
+			);
+			name = UIColor;
+			path = Lib/UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +352,8 @@
 				A84798B81EB5BA1800E19C9E /* BaseViewController.m in Sources */,
 				A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */,
 				A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */,
+				A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */,
+				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,
 				A84798941EB5B62100E19C9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +517,7 @@
 				A84798A81EB5B62100E19C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

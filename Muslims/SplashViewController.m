@@ -20,6 +20,10 @@
     [self performSelector:@selector(goMainScreen) withObject:nil afterDelay:2.0];
 }
 
+- (BOOL) prefersStatusBarHidden {
+    
+    return TRUE;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

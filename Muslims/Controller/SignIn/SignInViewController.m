@@ -1,36 +1,40 @@
 //
-//  MainHomeViewController.m
+//  SignInViewController.m
 //  Muslims
 //
 //  Created by David Tong on 4/30/17.
 //  Copyright © 2017 Muslims. All rights reserved.
 //
 
-#import "MainHomeViewController.h"
+#import "SignInViewController.h"
 
-@interface MainHomeViewController ()
+@interface SignInViewController ()
 
 @end
 
-@implementation MainHomeViewController
+@implementation SignInViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden = TRUE;
 }
 
 - (void) viewWillDisappear:(BOOL)animated {
-    self.navigationController.navigationBarHidden = FALSE;
+    self.navigationController.navigationBarHidden = TRUE;
     [super viewWillDisappear:animated];
-}
-
-- (BOOL) prefersStatusBarHidden {
-    
-    return TRUE;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (BOOL) prefersStatusBarHidden {
+    
+    return FALSE;
+}
+
+- (void) initializeView {
+    self.title = @"Sign In";
+    [super initializeView];
 }
 
 /*
