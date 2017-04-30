@@ -7,8 +7,14 @@
 //
 
 #import "SignInViewController.h"
+#import "UIColor+Hex.h"
 
-@interface SignInViewController ()
+@interface SignInViewController () <UITextFieldDelegate> {
+    UIButton* accessorySignInButton;
+}
+
+@property (weak, nonatomic) IBOutlet UITextField *emailAddressTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 
 @end
 
@@ -32,19 +38,34 @@
     return FALSE;
 }
 
+#pragma mark - UITextFieldDelegate
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    
+    if([textField isEqual:_emailAddressTextField]) {
+        [_passwordTextField becomeFirstResponder];
+    } else {
+        [textField resignFirstResponder];
+    }
+    
+    return  TRUE;
+}
+
+#pragma mark - Override methods
+
 - (void) initializeView {
     self.title = @"Sign In";
+    self.emailAddressTextField.delegate = self;
+    self.passwordTextField.delegate = self;
+    accessorySignInButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [accessorySignInButton setBackgroundImage:[UIImage imageNamed:@"signIn"] forState:UIControlStateNormal];
+    accessorySignInButton.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 65);
+    [accessorySignInButton setTitle:@"SIGN-IN" forState:UIControlStateNormal];
+    [accessorySignInButton setTitleColor:[UIColor colorWithHex:0x525252] forState:UIControlStateNormal];
+    self.emailAddressTextField.inputAccessoryView = accessorySignInButton;
+    self.passwordTextField.inputAccessoryView = accessorySignInButton;
     [super initializeView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
