@@ -647,20 +647,99 @@ and we’ll send you a confirmation.</string>
                         <outlet property="fullnameTextField" destination="vMr-wS-aLc" id="bH6-MN-7bo"/>
                         <outlet property="nicknameTextField" destination="u6T-27-HUx" id="Yis-qC-Fqy"/>
                         <outlet property="passwordTextField" destination="1T9-OG-yc6" id="zhh-BA-QWT"/>
+                        <segue destination="MFB-PP-Dai" kind="show" identifier="SegueSelfieVerification" id="bkK-HR-z66"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGb-tc-df4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1813.5999999999999" y="808.24587706146929"/>
+            <point key="canvasLocation" x="1809" y="900"/>
+        </scene>
+        <!--Selfie Verification View Controller-->
+        <scene sceneID="J9w-6c-EBG">
+            <objects>
+                <viewController id="MFB-PP-Dai" customClass="SelfieVerificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="obb-eO-U1F"/>
+                        <viewControllerLayoutGuide type="bottom" id="iYR-GE-YJW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CSh-UD-KUB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="EkM-Kd-FB7">
+                                <rect key="frame" x="22" y="76" width="331" height="373"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="373" id="tWa-5J-PNV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaX-Mb-HDK">
+                                <rect key="frame" x="320" y="88" width="35" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="2XG-SI-dNe"/>
+                                    <constraint firstAttribute="width" constant="35" id="8jT-Qy-LlS"/>
+                                </constraints>
+                                <state key="normal" image="switch_camera"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rp1-b4-CUt">
+                                <rect key="frame" x="11" y="370" width="191" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="GIu-fp-7wx"/>
+                                    <constraint firstAttribute="height" constant="61" id="wCy-eO-v7F"/>
+                                </constraints>
+                                <string key="text">Selfie Verification
+Smile!</string>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
+                                <color key="textColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signIn" translatesAutoresizingMaskIntoConstraints="NO" id="uSU-gm-K6o">
+                                <rect key="frame" x="-1" y="600" width="377" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="Aew-jf-REa"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7g9-ET-85H">
+                                <rect key="frame" x="157.5" y="607" width="60" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="84O-b9-TnC"/>
+                                    <constraint firstAttribute="width" constant="60" id="K0Q-Ub-7Sy"/>
+                                </constraints>
+                                <state key="normal" image="camera"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EkM-Kd-FB7" secondAttribute="trailing" constant="22" id="09G-du-CRD"/>
+                            <constraint firstAttribute="trailing" secondItem="uSU-gm-K6o" secondAttribute="trailing" constant="-1" id="0Yh-bZ-4OM"/>
+                            <constraint firstItem="iYR-GE-YJW" firstAttribute="top" secondItem="7g9-ET-85H" secondAttribute="bottom" constant="1" id="68X-X1-cpD"/>
+                            <constraint firstItem="EkM-Kd-FB7" firstAttribute="leading" secondItem="CSh-UD-KUB" secondAttribute="leading" constant="22" id="8XS-Nd-3xs"/>
+                            <constraint firstItem="kaX-Mb-HDK" firstAttribute="top" secondItem="obb-eO-U1F" secondAttribute="bottom" constant="24" id="Cg7-2y-RNv"/>
+                            <constraint firstItem="7g9-ET-85H" firstAttribute="centerX" secondItem="CSh-UD-KUB" secondAttribute="centerX" id="HNH-gQ-GFY"/>
+                            <constraint firstItem="EkM-Kd-FB7" firstAttribute="top" secondItem="obb-eO-U1F" secondAttribute="bottom" constant="12" id="Uoy-CJ-f52"/>
+                            <constraint firstAttribute="bottom" secondItem="uSU-gm-K6o" secondAttribute="bottom" constant="-7" id="Zbq-T8-tgf"/>
+                            <constraint firstItem="rp1-b4-CUt" firstAttribute="top" secondItem="obb-eO-U1F" secondAttribute="bottom" constant="306" id="aRQ-iE-2e3"/>
+                            <constraint firstAttribute="trailing" secondItem="kaX-Mb-HDK" secondAttribute="trailing" constant="20" id="aeD-2H-7H4"/>
+                            <constraint firstItem="uSU-gm-K6o" firstAttribute="leading" secondItem="CSh-UD-KUB" secondAttribute="leading" constant="-1" id="jh6-6y-NK4"/>
+                            <constraint firstItem="rp1-b4-CUt" firstAttribute="leading" secondItem="CSh-UD-KUB" secondAttribute="leading" constant="11" id="le3-06-GHe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="my7-UL-G4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2600.8000000000002" y="897.30134932533736"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg_login" width="375" height="387"/>
         <image name="bg_textfields" width="375" height="108"/>
+        <image name="camera" width="60" height="59"/>
         <image name="ic_email" width="24" height="14"/>
+        <image name="person" width="317" height="313"/>
+        <image name="signIn" width="375" height="65"/>
         <image name="signin_bg" width="236" height="52"/>
         <image name="signin_facebook" width="229" height="43"/>
         <image name="splash" width="375" height="667"/>
+        <image name="switch_camera" width="35" height="27"/>
         <image name="uncheckbox" width="19" height="19"/>
     </resources>
 </document>

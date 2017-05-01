@@ -27,6 +27,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
+    
+- (void) viewDidAppear:(BOOL)animated {
+    self.navigationController.navigationBarHidden = FALSE;
+    [super viewDidAppear:animated];
+}
 
 - (void) viewWillDisappear:(BOOL)animated {
     self.navigationController.navigationBarHidden = TRUE;
@@ -77,7 +82,7 @@
             if (![_passwordTextField.text isEqualToString:_confirmPasswordTextField.text]) {
                 [self showMessage:@"Confirm password doesn't match."];
             } else {
-                
+                [self performSegueWithIdentifier:@"SegueSelfieVerification" sender:nil];
             }
         } else {
             [self showMessage:error.localizedFailureReason];
