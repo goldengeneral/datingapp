@@ -7,87 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C08AB6BC47A6E86DA4AD07792084396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AED1168D72021319072467D9995B91 /* LKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */; };
-		1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */; };
-		238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */; };
-		3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */; };
-		4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */; };
-		64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */; };
-		716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B93D3EAE4DF8EA19DA35D37C3E703D8 /* LKAlphaValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4492868A376EBBD539F8F313616C77 /* LKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D74CEA71A67FAE9CA348D650FCAD15 /* LKRegexValidator.m */; };
+		1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27449FDE02F3B8827616AFB99505C59A /* LKMultipleValidator.m */; };
+		238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 479383A9591BC0FDAC1F03DBFD3E3FD7 /* LKMultipleValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EA1551FDDB8CDA1BECF25E518248CF /* LKValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D3C3D8B54D7899A30CE085DC9F700C /* LKLengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D143AA14FB87896A7FE924F033AF382 /* LKValidatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF081C0788B27F87C468980ED0841BE /* InputValidators-dummy.m */; };
+		3B6E5454903EBF0CC397628DDF0D7768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3C7AFC613EDB92D560C38C869EF47950 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19894E96F976FC6D2167D834FE8A1111 /* TPKeyboardAvoiding-dummy.m */; };
+		3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EB421D0C347AA8CC9D75A60A945822 /* LKValidator.m */; };
+		4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA57A2AD549619BC8D1B924629ADA39 /* LKEmailValidator.m */; };
+		568C780BFDB627F38D701A1211B4ED70 /* Pods-Muslims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */; };
+		5D98158B32CE06177BD65335F1113A79 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E84C9D971F3CA086C80D6B2ACF626D /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 507509D8DAB0A03E96CEC92E8AEFD9C9 /* LKValidatorError.m */; };
+		6E9F2D3DB56DBD1FC52DF80BC1B54E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D53C23252C44AE8A316962CDFA0B9A75 /* LKNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7460B37DA512FDB72F8BC820A16E9EF5 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAE4EE81BE14F711AEE10787A2BE476 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */; };
-		822EF54A1EDBA8A04FBCCDAB9BE35F74 /* Pods-Muslims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */; };
-		A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 307D2176016533F054DF0E9950603DBB /* LKTextField.m */; };
-		B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */; };
-		BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */; };
-		C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */; };
-		CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D5F9308B34479178B11DE1198A9F53 /* LKRequiredValidator.m */; };
+		85970956BA182783D83B7345E49BE3D0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19801B5547018928164303A8AAB55D73 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A12DFCD129C98CEBDAA2DEB6CEF7FE3E /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BAAEDB6C3A2C72BBBF91F6E56E04B /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE560090DBCECC7B2EB541ACB8191A7 /* LKRequiredValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B48F5E2DCB9601549DCA453E3FBE8 /* LKTextField.m */; };
+		AD5819B80DCD7382886CB5AC4DB9E64A /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D56E1094DB87AC443EEF864F2D5A9B /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49096E9F2E4197AD19520656E09A4FAA /* LKNumericValidator.m */; };
+		BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BACE238710032ACDD22EE2B5E062CE5D /* LKLengthValidator.m */; };
+		C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA33DFD4EE36730282C14D21C4A7A67 /* LKAlphaValidator.m */; };
+		CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = 144130243587B71A9E43D504654AE02F /* LKValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D80F5950A12F1A477DF612D0F5AA107D /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A82850B8DD3A30B4D1B7491C58A1DE /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7D929684321215267CCEAD24B8A25 /* LKRegexValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA4D5A04D80DEED551F7E6C13C21826 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F54C7B665186799895B6B398DD6421C6 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D84F7970818127097C5F09518421111B /* LKEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6A7D6A80E7EF7B71D95FCC135D48C33 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494B23C9A314E7868E5BF7041178FC /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CE75DAA8524EF22A473F93EC0231F38 /* PBXContainerItemProxy */ = {
+		3B6A699C53EB1D99EDB91020170FA284 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FF836295027C03B274E59F52AEFA64D9;
 			remoteInfo = InputValidators;
 		};
+		87F93A32713F8BA55A7EB2CCE9F920BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DA58270D67C81A2AEFBC5FA995FEB62;
+			remoteInfo = TPKeyboardAvoiding;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		087DE4619200DF8EE4548E15FD0BA048 /* Pods-Muslims-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Muslims-acknowledgements.plist"; sourceTree = "<group>"; };
-		0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAlphaValidator.m; path = Sources/Validators/LKAlphaValidator.m; sourceTree = "<group>"; };
+		0B93D3EAE4DF8EA19DA35D37C3E703D8 /* LKAlphaValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAlphaValidator.h; path = Sources/Validators/LKAlphaValidator.h; sourceTree = "<group>"; };
 		0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Muslims-dummy.m"; sourceTree = "<group>"; };
-		13AED1168D72021319072467D9995B91 /* LKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTextField.h; path = Sources/UI/LKTextField.h; sourceTree = "<group>"; };
-		14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKEmailValidator.m; path = Sources/Validators/LKEmailValidator.m; sourceTree = "<group>"; };
-		1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLengthValidator.m; path = Sources/Validators/LKLengthValidator.m; sourceTree = "<group>"; };
-		1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRequiredValidator.h; path = Sources/Validators/LKRequiredValidator.h; sourceTree = "<group>"; };
+		0FAE4EE81BE14F711AEE10787A2BE476 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		11D3C3D8B54D7899A30CE085DC9F700C /* LKLengthValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLengthValidator.h; path = Sources/Validators/LKLengthValidator.h; sourceTree = "<group>"; };
+		144130243587B71A9E43D504654AE02F /* LKValidators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidators.h; path = Sources/LKValidators.h; sourceTree = "<group>"; };
+		19801B5547018928164303A8AAB55D73 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		19894E96F976FC6D2167D834FE8A1111 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		1C4BAAEDB6C3A2C72BBBF91F6E56E04B /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		1D143AA14FB87896A7FE924F033AF382 /* LKValidatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidatorError.h; path = Sources/Core/LKValidatorError.h; sourceTree = "<group>"; };
+		25A82850B8DD3A30B4D1B7491C58A1DE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		26943D29D0D67F66D0DD1836DC1B32D0 /* Pods-Muslims-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Muslims-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27449FDE02F3B8827616AFB99505C59A /* LKMultipleValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKMultipleValidator.m; path = Sources/Validators/LKMultipleValidator.m; sourceTree = "<group>"; };
+		28EA1551FDDB8CDA1BECF25E518248CF /* LKValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidator.h; path = Sources/Core/LKValidator.h; sourceTree = "<group>"; };
 		29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Muslims.debug.xcconfig"; sourceTree = "<group>"; };
-		2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAlphaValidator.h; path = Sources/Validators/LKAlphaValidator.h; sourceTree = "<group>"; };
-		307D2176016533F054DF0E9950603DBB /* LKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKTextField.m; path = Sources/UI/LKTextField.m; sourceTree = "<group>"; };
-		34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLengthValidator.h; path = Sources/Validators/LKLengthValidator.h; sourceTree = "<group>"; };
-		4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNumericValidator.h; path = Sources/Validators/LKNumericValidator.h; sourceTree = "<group>"; };
+		38EB421D0C347AA8CC9D75A60A945822 /* LKValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidator.m; path = Sources/Core/LKValidator.m; sourceTree = "<group>"; };
+		3EE95B6A33D9C59F91E0655B9A5099EE /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		3FA57A2AD549619BC8D1B924629ADA39 /* LKEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKEmailValidator.m; path = Sources/Validators/LKEmailValidator.m; sourceTree = "<group>"; };
+		40E84C9D971F3CA086C80D6B2ACF626D /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		479383A9591BC0FDAC1F03DBFD3E3FD7 /* LKMultipleValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKMultipleValidator.h; path = Sources/Validators/LKMultipleValidator.h; sourceTree = "<group>"; };
+		49096E9F2E4197AD19520656E09A4FAA /* LKNumericValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKNumericValidator.m; path = Sources/Validators/LKNumericValidator.m; sourceTree = "<group>"; };
+		507509D8DAB0A03E96CEC92E8AEFD9C9 /* LKValidatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidatorError.m; path = Sources/Core/LKValidatorError.m; sourceTree = "<group>"; };
 		564B123669844F5BBEF4BBBAD25DD4A7 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
-		66B49933451FBE4F59F8C59ECB19605A /* InputValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidators-prefix.pch"; sourceTree = "<group>"; };
-		6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidator.m; path = Sources/Core/LKValidator.m; sourceTree = "<group>"; };
-		7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRequiredValidator.m; path = Sources/Validators/LKRequiredValidator.m; sourceTree = "<group>"; };
+		75DA74543660A426583ACD136F635227 /* libInputValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libInputValidators.a; path = libInputValidators.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A44E878A111AF3D61658D3FCE32B5CB /* InputValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidators-prefix.pch"; sourceTree = "<group>"; };
+		7EC08C04E4C854996C0C5C3680185FC7 /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Muslims.a"; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E7D929684321215267CCEAD24B8A25 /* LKRegexValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRegexValidator.h; path = Sources/Validators/LKRegexValidator.h; sourceTree = "<group>"; };
+		8D4492868A376EBBD539F8F313616C77 /* LKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTextField.h; path = Sources/UI/LKTextField.h; sourceTree = "<group>"; };
+		90D5F9308B34479178B11DE1198A9F53 /* LKRequiredValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRequiredValidator.m; path = Sources/Validators/LKRequiredValidator.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InputValidators-dummy.m"; sourceTree = "<group>"; };
-		A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKMultipleValidator.m; path = Sources/Validators/LKMultipleValidator.m; sourceTree = "<group>"; };
-		A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKMultipleValidator.h; path = Sources/Validators/LKMultipleValidator.h; sourceTree = "<group>"; };
-		A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidatorError.m; path = Sources/Core/LKValidatorError.m; sourceTree = "<group>"; };
-		AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Muslims.a"; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidators.h; path = Sources/LKValidators.h; sourceTree = "<group>"; };
-		BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKEmailValidator.h; path = Sources/Validators/LKEmailValidator.h; sourceTree = "<group>"; };
+		A2743BC7C3F000A14A3F03C83A8D3C23 /* InputValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputValidators.xcconfig; sourceTree = "<group>"; };
+		A69C79B3465E4FCDC63620C533235898 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTPKeyboardAvoiding.a; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9494B23C9A314E7868E5BF7041178FC /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		AAE560090DBCECC7B2EB541ACB8191A7 /* LKRequiredValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRequiredValidator.h; path = Sources/Validators/LKRequiredValidator.h; sourceTree = "<group>"; };
+		B0D74CEA71A67FAE9CA348D650FCAD15 /* LKRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRegexValidator.m; path = Sources/Validators/LKRegexValidator.m; sourceTree = "<group>"; };
+		B0EACC26EF06AB699AE66790DFA16BF6 /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		BACE238710032ACDD22EE2B5E062CE5D /* LKLengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLengthValidator.m; path = Sources/Validators/LKLengthValidator.m; sourceTree = "<group>"; };
 		BD46A1C19B657694ECEF02F939F99654 /* Pods-Muslims-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Muslims-frameworks.sh"; sourceTree = "<group>"; };
-		C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKNumericValidator.m; path = Sources/Validators/LKNumericValidator.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRegexValidator.m; path = Sources/Validators/LKRegexValidator.m; sourceTree = "<group>"; };
-		D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRegexValidator.h; path = Sources/Validators/LKRegexValidator.h; sourceTree = "<group>"; };
-		E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidator.h; path = Sources/Core/LKValidator.h; sourceTree = "<group>"; };
-		E3629474EA966891D14837C51F68B178 /* libInputValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libInputValidators.a; path = libInputValidators.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputValidators.xcconfig; sourceTree = "<group>"; };
-		EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidatorError.h; path = Sources/Core/LKValidatorError.h; sourceTree = "<group>"; };
+		D53C23252C44AE8A316962CDFA0B9A75 /* LKNumericValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNumericValidator.h; path = Sources/Validators/LKNumericValidator.h; sourceTree = "<group>"; };
+		D84F7970818127097C5F09518421111B /* LKEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKEmailValidator.h; path = Sources/Validators/LKEmailValidator.h; sourceTree = "<group>"; };
+		DB9B48F5E2DCB9601549DCA453E3FBE8 /* LKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKTextField.m; path = Sources/UI/LKTextField.m; sourceTree = "<group>"; };
+		DCF081C0788B27F87C468980ED0841BE /* InputValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InputValidators-dummy.m"; sourceTree = "<group>"; };
+		DDA33DFD4EE36730282C14D21C4A7A67 /* LKAlphaValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAlphaValidator.m; path = Sources/Validators/LKAlphaValidator.m; sourceTree = "<group>"; };
+		E8D56E1094DB87AC443EEF864F2D5A9B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		F54C7B665186799895B6B398DD6421C6 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
 		F84295B55BB897520C73DF55C6E1F17B /* Pods-Muslims-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Muslims-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72B1AA198CD3BAF78A6907512CC5EE1B /* Frameworks */ = {
+		2852DB85BFBC17F0AE16E82ADE324B3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C08AB6BC47A6E86DA4AD07792084396 /* Foundation.framework in Frameworks */,
+				6E9F2D3DB56DBD1FC52DF80BC1B54E88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +125,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71BD3136ACEA4D129517443E359843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6E5454903EBF0CC397628DDF0D7768 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +145,17 @@
 				2F0DC0201F23103FCB8099A926C8A497 /* Pods-Muslims */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2B7A3B965C9D722BC134DABD12FD84C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2743BC7C3F000A14A3F03C83A8D3C23 /* InputValidators.xcconfig */,
+				DCF081C0788B27F87C468980ED0841BE /* InputValidators-dummy.m */,
+				7A44E878A111AF3D61658D3FCE32B5CB /* InputValidators-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InputValidators";
 			sourceTree = "<group>";
 		};
 		2F0DC0201F23103FCB8099A926C8A497 /* Pods-Muslims */ = {
@@ -125,39 +173,40 @@
 			path = "Target Support Files/Pods-Muslims";
 			sourceTree = "<group>";
 		};
-		4BBCEE837D685893174C0DFEFE900044 /* Pods */ = {
+		2F9559A492209CC94001F287BA091FC2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5DB30F5A2F6627F7A214A4F1E89DB85B /* InputValidators */,
+				3D86BD11717F258D7968BCFF2DC57C73 /* InputValidators */,
+				FBFDE8DDADDB78196C8136A6D357DBFA /* TPKeyboardAvoiding */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5DB30F5A2F6627F7A214A4F1E89DB85B /* InputValidators */ = {
+		3D86BD11717F258D7968BCFF2DC57C73 /* InputValidators */ = {
 			isa = PBXGroup;
 			children = (
-				2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */,
-				0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */,
-				BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */,
-				14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */,
-				34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */,
-				1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */,
-				A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */,
-				A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */,
-				4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */,
-				C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */,
-				D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */,
-				D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */,
-				1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */,
-				7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */,
-				13AED1168D72021319072467D9995B91 /* LKTextField.h */,
-				307D2176016533F054DF0E9950603DBB /* LKTextField.m */,
-				E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */,
-				6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */,
-				EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */,
-				A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */,
-				B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */,
-				96FE2B0A172C38E154FC04FAE2A0F362 /* Support Files */,
+				0B93D3EAE4DF8EA19DA35D37C3E703D8 /* LKAlphaValidator.h */,
+				DDA33DFD4EE36730282C14D21C4A7A67 /* LKAlphaValidator.m */,
+				D84F7970818127097C5F09518421111B /* LKEmailValidator.h */,
+				3FA57A2AD549619BC8D1B924629ADA39 /* LKEmailValidator.m */,
+				11D3C3D8B54D7899A30CE085DC9F700C /* LKLengthValidator.h */,
+				BACE238710032ACDD22EE2B5E062CE5D /* LKLengthValidator.m */,
+				479383A9591BC0FDAC1F03DBFD3E3FD7 /* LKMultipleValidator.h */,
+				27449FDE02F3B8827616AFB99505C59A /* LKMultipleValidator.m */,
+				D53C23252C44AE8A316962CDFA0B9A75 /* LKNumericValidator.h */,
+				49096E9F2E4197AD19520656E09A4FAA /* LKNumericValidator.m */,
+				82E7D929684321215267CCEAD24B8A25 /* LKRegexValidator.h */,
+				B0D74CEA71A67FAE9CA348D650FCAD15 /* LKRegexValidator.m */,
+				AAE560090DBCECC7B2EB541ACB8191A7 /* LKRequiredValidator.h */,
+				90D5F9308B34479178B11DE1198A9F53 /* LKRequiredValidator.m */,
+				8D4492868A376EBBD539F8F313616C77 /* LKTextField.h */,
+				DB9B48F5E2DCB9601549DCA453E3FBE8 /* LKTextField.m */,
+				28EA1551FDDB8CDA1BECF25E518248CF /* LKValidator.h */,
+				38EB421D0C347AA8CC9D75A60A945822 /* LKValidator.m */,
+				1D143AA14FB87896A7FE924F033AF382 /* LKValidatorError.h */,
+				507509D8DAB0A03E96CEC92E8AEFD9C9 /* LKValidatorError.m */,
+				144130243587B71A9E43D504654AE02F /* LKValidators.h */,
+				2B7A3B965C9D722BC134DABD12FD84C5 /* Support Files */,
 			);
 			name = InputValidators;
 			path = InputValidators;
@@ -171,26 +220,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		77D06A7731CB9F3C642E2D11B0FC6809 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EACC26EF06AB699AE66790DFA16BF6 /* TPKeyboardAvoiding.xcconfig */,
+				19894E96F976FC6D2167D834FE8A1111 /* TPKeyboardAvoiding-dummy.m */,
+				3EE95B6A33D9C59F91E0655B9A5099EE /* TPKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4BBCEE837D685893174C0DFEFE900044 /* Pods */,
-				E955806803DBCCB33D7738B7FF78CAFC /* Products */,
+				2F9559A492209CC94001F287BA091FC2 /* Pods */,
+				A9ECC0A25881809BDDDCCC22628610A2 /* Products */,
 				07E5C939FEE82EE348138094C062857F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		96FE2B0A172C38E154FC04FAE2A0F362 /* Support Files */ = {
+		A9ECC0A25881809BDDDCCC22628610A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */,
-				94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */,
-				66B49933451FBE4F59F8C59ECB19605A /* InputValidators-prefix.pch */,
+				75DA74543660A426583ACD136F635227 /* libInputValidators.a */,
+				7EC08C04E4C854996C0C5C3680185FC7 /* libPods-Muslims.a */,
+				A69C79B3465E4FCDC63620C533235898 /* libTPKeyboardAvoiding.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/InputValidators";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -201,13 +260,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E955806803DBCCB33D7738B7FF78CAFC /* Products */ = {
+		FBFDE8DDADDB78196C8136A6D357DBFA /* TPKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				E3629474EA966891D14837C51F68B178 /* libInputValidators.a */,
-				AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */,
+				F54C7B665186799895B6B398DD6421C6 /* TPKeyboardAvoidingCollectionView.h */,
+				40E84C9D971F3CA086C80D6B2ACF626D /* TPKeyboardAvoidingCollectionView.m */,
+				25A82850B8DD3A30B4D1B7491C58A1DE /* TPKeyboardAvoidingScrollView.h */,
+				E8D56E1094DB87AC443EEF864F2D5A9B /* TPKeyboardAvoidingScrollView.m */,
+				0FAE4EE81BE14F711AEE10787A2BE476 /* TPKeyboardAvoidingTableView.h */,
+				1C4BAAEDB6C3A2C72BBBF91F6E56E04B /* TPKeyboardAvoidingTableView.m */,
+				A9494B23C9A314E7868E5BF7041178FC /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				19801B5547018928164303A8AAB55D73 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				77D06A7731CB9F3C642E2D11B0FC6809 /* Support Files */,
 			);
-			name = Products;
+			name = TPKeyboardAvoiding;
+			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,24 +298,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86F6096EFC793ABF48C082DC2DCF4457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA4D5A04D80DEED551F7E6C13C21826 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				D80F5950A12F1A477DF612D0F5AA107D /* TPKeyboardAvoidingScrollView.h in Headers */,
+				7460B37DA512FDB72F8BC820A16E9EF5 /* TPKeyboardAvoidingTableView.h in Headers */,
+				F6A7D6A80E7EF7B71D95FCC135D48C33 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		929145AE270EB897EDB1C7FA6823CC70 /* Pods-Muslims */ = {
+		0DA58270D67C81A2AEFBC5FA995FEB62 /* TPKeyboardAvoiding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87549585DE4614D3D2ADAAA83C4E8A23 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */;
+			buildConfigurationList = 5B517F9CFCABD18BBEE7F3049C761D85 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
 			buildPhases = (
-				A1B6DB182C743A90633524E5678DA747 /* Sources */,
-				72B1AA198CD3BAF78A6907512CC5EE1B /* Frameworks */,
+				3EA2BB22E984BDD1AA5B2090631A248F /* Sources */,
+				2852DB85BFBC17F0AE16E82ADE324B3D /* Frameworks */,
+				86F6096EFC793ABF48C082DC2DCF4457 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				004E535E00AE3582730FE18A6776C9AD /* PBXTargetDependency */,
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = A69C79B3465E4FCDC63620C533235898 /* libTPKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		605D37A5C8687336AE0A3EC5B0C8667B /* Pods-Muslims */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420BB25DC251FA2F500021F1775A644D /* Build configuration list for PBXNativeTarget "Pods-Muslims" */;
+			buildPhases = (
+				22F808AB7B3F316B36791F9B1625BA49 /* Sources */,
+				B71BD3136ACEA4D129517443E359843E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD41B39776042F71A76B2F437D86D24F /* PBXTargetDependency */,
+				403420B9BF42DDEE16A269A144314630 /* PBXTargetDependency */,
 			);
 			name = "Pods-Muslims";
 			productName = "Pods-Muslims";
-			productReference = AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */;
+			productReference = 7EC08C04E4C854996C0C5C3680185FC7 /* libPods-Muslims.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FF836295027C03B274E59F52AEFA64D9 /* InputValidators */ = {
@@ -265,7 +361,7 @@
 			);
 			name = InputValidators;
 			productName = InputValidators;
-			productReference = E3629474EA966891D14837C51F68B178 /* libInputValidators.a */;
+			productReference = 75DA74543660A426583ACD136F635227 /* libInputValidators.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -285,17 +381,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E955806803DBCCB33D7738B7FF78CAFC /* Products */;
+			productRefGroup = A9ECC0A25881809BDDDCCC22628610A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FF836295027C03B274E59F52AEFA64D9 /* InputValidators */,
-				929145AE270EB897EDB1C7FA6823CC70 /* Pods-Muslims */,
+				605D37A5C8687336AE0A3EC5B0C8667B /* Pods-Muslims */,
+				0DA58270D67C81A2AEFBC5FA995FEB62 /* TPKeyboardAvoiding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		22F808AB7B3F316B36791F9B1625BA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568C780BFDB627F38D701A1211B4ED70 /* Pods-Muslims-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA2BB22E984BDD1AA5B2090631A248F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7AFC613EDB92D560C38C869EF47950 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				5D98158B32CE06177BD65335F1113A79 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				AD5819B80DCD7382886CB5AC4DB9E64A /* TPKeyboardAvoidingScrollView.m in Sources */,
+				A12DFCD129C98CEBDAA2DEB6CEF7FE3E /* TPKeyboardAvoidingTableView.m in Sources */,
+				85970956BA182783D83B7345E49BE3D0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79CB9FDC7331613D1E297956BA24EC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,29 +431,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1B6DB182C743A90633524E5678DA747 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				822EF54A1EDBA8A04FBCCDAB9BE35F74 /* Pods-Muslims-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		004E535E00AE3582730FE18A6776C9AD /* PBXTargetDependency */ = {
+		403420B9BF42DDEE16A269A144314630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 0DA58270D67C81A2AEFBC5FA995FEB62 /* TPKeyboardAvoiding */;
+			targetProxy = 87F93A32713F8BA55A7EB2CCE9F920BD /* PBXContainerItemProxy */;
+		};
+		BD41B39776042F71A76B2F437D86D24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = InputValidators;
 			target = FF836295027C03B274E59F52AEFA64D9 /* InputValidators */;
-			targetProxy = 2CE75DAA8524EF22A473F93EC0231F38 /* PBXContainerItemProxy */;
+			targetProxy = 3B6A699C53EB1D99EDB91020170FA284 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		094EE4355EF08D8ED35CBA170A9EC943 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */;
+			baseConfigurationReference = A2743BC7C3F000A14A3F03C83A8D3C23 /* InputValidators.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -356,29 +471,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		0F3AEB325E1F06DA782F930FA0342A68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -420,7 +512,7 @@
 			};
 			name = Release;
 		};
-		44938D073A8C5A9863A1DFC008725E90 /* Release */ = {
+		37F8A9C11E60DBCAFE063C2F18CF27F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 564B123669844F5BBEF4BBBAD25DD4A7 /* Pods-Muslims.release.xcconfig */;
 			buildSettings = {
@@ -443,9 +535,32 @@
 			};
 			name = Release;
 		};
+		851FC8635AFC8CCEB8C4BA84DCE9E211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EACC26EF06AB699AE66790DFA16BF6 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		958B6371FE7D1A98519709910802D41C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */;
+			baseConfigurationReference = A2743BC7C3F000A14A3F03C83A8D3C23 /* InputValidators.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,6 +576,29 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99F7567521B83B8494F307FC12DD54BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -510,6 +648,29 @@
 			};
 			name = Debug;
 		};
+		C91D2DB25B2C87CEA734A98245DC5BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EACC26EF06AB699AE66790DFA16BF6 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,11 +692,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87549585DE4614D3D2ADAAA83C4E8A23 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */ = {
+		420BB25DC251FA2F500021F1775A644D /* Build configuration list for PBXNativeTarget "Pods-Muslims" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F3AEB325E1F06DA782F930FA0342A68 /* Debug */,
-				44938D073A8C5A9863A1DFC008725E90 /* Release */,
+				99F7567521B83B8494F307FC12DD54BB /* Debug */,
+				37F8A9C11E60DBCAFE063C2F18CF27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B517F9CFCABD18BBEE7F3049C761D85 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91D2DB25B2C87CEA734A98245DC5BFD /* Debug */,
+				851FC8635AFC8CCEB8C4BA84DCE9E211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

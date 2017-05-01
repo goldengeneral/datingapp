@@ -14,10 +14,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>929145AE270EB897EDB1C7FA6823CC70</key>
+		<key>0DA58270D67C81A2AEFBC5FA995FEB62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>605D37A5C8687336AE0A3EC5B0C8667B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

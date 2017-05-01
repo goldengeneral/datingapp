@@ -7,5 +7,6 @@ target 'Muslims' do
 
   # Pods for Muslims
   pod 'InputValidators'
+  pod 'TPKeyboardAvoiding'
   
 end

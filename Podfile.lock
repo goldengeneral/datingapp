@@ -1,12 +1,15 @@
 PODS:
   - InputValidators (1.0.0)
+  - TPKeyboardAvoiding (1.3.1)
 
 DEPENDENCIES:
   - InputValidators
+  - TPKeyboardAvoiding
 
 SPEC CHECKSUMS:
   InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
 
-PODFILE CHECKSUM: ce6b7898f2360142555419cd4bdc07a9e4d13236
+PODFILE CHECKSUM: 1c4c26e6c473f47d858289194343fa1f3782dadc
 
 COCOAPODS: 1.2.0
