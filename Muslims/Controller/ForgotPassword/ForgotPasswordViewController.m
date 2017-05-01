@@ -8,6 +8,7 @@
 
 #import "ForgotPasswordViewController.h"
 #import "UIColor+Hex.h"
+#import <LKValidators.h>
 
 @interface ForgotPasswordViewController () <UITextFieldDelegate> {
     UIButton* accessorySignInButton;
@@ -53,7 +54,23 @@
     [accessorySignInButton setTitle:@"SEND" forState:UIControlStateNormal];
     [accessorySignInButton setTitleColor:[UIColor colorWithHex:0x525252] forState:UIControlStateNormal];
     self.emailAddressTextField.inputAccessoryView = accessorySignInButton;
+    [accessorySignInButton addTarget:self action:@selector(onSendPasswordClicked:) forControlEvents:UIControlEventTouchUpInside];
     [super initializeView];
+}
+    
+#pragma mark - Actions
+    
+- (IBAction) onSendPasswordClicked:(id)sender {
+    
+    LKValidator *validator = [LKEmailValidator validator];
+    NSError *error = nil;
+    BOOL isValid = [validator validate:_emailAddressTextField.text error:&error];
+    
+    if (isValid) {
+        
+    } else {
+        [self showMessage:error.localizedFailureReason];
+    }
 }
 
 
