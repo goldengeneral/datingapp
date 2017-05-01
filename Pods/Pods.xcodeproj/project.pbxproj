@@ -7,29 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18F34CEA76FDA10A6D2610A2A8089278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B46782C10B01AA102292A9B0A4C348BB /* Pods-Muslims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */; };
+		0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C08AB6BC47A6E86DA4AD07792084396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AED1168D72021319072467D9995B91 /* LKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */; };
+		1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */; };
+		238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */; };
+		3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */; };
+		4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */; };
+		64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */; };
+		716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */; };
+		822EF54A1EDBA8A04FBCCDAB9BE35F74 /* Pods-Muslims-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */; };
+		A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 307D2176016533F054DF0E9950603DBB /* LKTextField.m */; };
+		B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */; };
+		BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */; };
+		C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */; };
+		CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE75DAA8524EF22A473F93EC0231F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF836295027C03B274E59F52AEFA64D9;
+			remoteInfo = InputValidators;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		087DE4619200DF8EE4548E15FD0BA048 /* Pods-Muslims-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Muslims-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D749270D67E5B423C3DAEC418351C33 /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Muslims.a"; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAlphaValidator.m; path = Sources/Validators/LKAlphaValidator.m; sourceTree = "<group>"; };
 		0DB8251FA729DA8C82E6526D23BD7B76 /* Pods-Muslims-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Muslims-dummy.m"; sourceTree = "<group>"; };
+		13AED1168D72021319072467D9995B91 /* LKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTextField.h; path = Sources/UI/LKTextField.h; sourceTree = "<group>"; };
+		14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKEmailValidator.m; path = Sources/Validators/LKEmailValidator.m; sourceTree = "<group>"; };
+		1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLengthValidator.m; path = Sources/Validators/LKLengthValidator.m; sourceTree = "<group>"; };
+		1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRequiredValidator.h; path = Sources/Validators/LKRequiredValidator.h; sourceTree = "<group>"; };
 		26943D29D0D67F66D0DD1836DC1B32D0 /* Pods-Muslims-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Muslims-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Muslims.debug.xcconfig"; sourceTree = "<group>"; };
+		2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAlphaValidator.h; path = Sources/Validators/LKAlphaValidator.h; sourceTree = "<group>"; };
+		307D2176016533F054DF0E9950603DBB /* LKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKTextField.m; path = Sources/UI/LKTextField.m; sourceTree = "<group>"; };
+		34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLengthValidator.h; path = Sources/Validators/LKLengthValidator.h; sourceTree = "<group>"; };
+		4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNumericValidator.h; path = Sources/Validators/LKNumericValidator.h; sourceTree = "<group>"; };
 		564B123669844F5BBEF4BBBAD25DD4A7 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
+		66B49933451FBE4F59F8C59ECB19605A /* InputValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidators-prefix.pch"; sourceTree = "<group>"; };
+		6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidator.m; path = Sources/Core/LKValidator.m; sourceTree = "<group>"; };
+		7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRequiredValidator.m; path = Sources/Validators/LKRequiredValidator.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InputValidators-dummy.m"; sourceTree = "<group>"; };
+		A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKMultipleValidator.m; path = Sources/Validators/LKMultipleValidator.m; sourceTree = "<group>"; };
+		A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKMultipleValidator.h; path = Sources/Validators/LKMultipleValidator.h; sourceTree = "<group>"; };
+		A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKValidatorError.m; path = Sources/Core/LKValidatorError.m; sourceTree = "<group>"; };
+		AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Muslims.a"; path = "libPods-Muslims.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidators.h; path = Sources/LKValidators.h; sourceTree = "<group>"; };
+		BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKEmailValidator.h; path = Sources/Validators/LKEmailValidator.h; sourceTree = "<group>"; };
 		BD46A1C19B657694ECEF02F939F99654 /* Pods-Muslims-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Muslims-frameworks.sh"; sourceTree = "<group>"; };
+		C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKNumericValidator.m; path = Sources/Validators/LKNumericValidator.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKRegexValidator.m; path = Sources/Validators/LKRegexValidator.m; sourceTree = "<group>"; };
+		D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKRegexValidator.h; path = Sources/Validators/LKRegexValidator.h; sourceTree = "<group>"; };
+		E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidator.h; path = Sources/Core/LKValidator.h; sourceTree = "<group>"; };
+		E3629474EA966891D14837C51F68B178 /* libInputValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libInputValidators.a; path = libInputValidators.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputValidators.xcconfig; sourceTree = "<group>"; };
+		EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKValidatorError.h; path = Sources/Core/LKValidatorError.h; sourceTree = "<group>"; };
 		F84295B55BB897520C73DF55C6E1F17B /* Pods-Muslims-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Muslims-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E0386053F40163C72E3B6FB72D2B898 /* Frameworks */ = {
+		72B1AA198CD3BAF78A6907512CC5EE1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F34CEA76FDA10A6D2610A2A8089278 /* Foundation.framework in Frameworks */,
+				0C08AB6BC47A6E86DA4AD07792084396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2D73008B28E9EA784DBB6B05AE3ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775251861450C4E1CF97303A3E8C5D82 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +125,42 @@
 			path = "Target Support Files/Pods-Muslims";
 			sourceTree = "<group>";
 		};
-		39429DC821225D9AD47B746AE8CDC5D9 /* Products */ = {
+		4BBCEE837D685893174C0DFEFE900044 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D749270D67E5B423C3DAEC418351C33 /* libPods-Muslims.a */,
+				5DB30F5A2F6627F7A214A4F1E89DB85B /* InputValidators */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DB30F5A2F6627F7A214A4F1E89DB85B /* InputValidators */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD7F48AA29B35FC3AC84A0489140E5 /* LKAlphaValidator.h */,
+				0C3A793A4B0C139FD011E6EB52637CB1 /* LKAlphaValidator.m */,
+				BC2346FCB6EEE400554BD708472D4D40 /* LKEmailValidator.h */,
+				14FB91E8C3F2498AE5C3763A3CF21C1D /* LKEmailValidator.m */,
+				34317518CB0B9FD560C4EC5647531ED8 /* LKLengthValidator.h */,
+				1599374C1EDA15B2CEF6AC6B4269F628 /* LKLengthValidator.m */,
+				A0884888FC3A840DC2EA42EE8E118C00 /* LKMultipleValidator.h */,
+				A0384C78BBB4E06600A40DF19C0A2FE9 /* LKMultipleValidator.m */,
+				4B5D7725ADDE17EFF990464917E8456A /* LKNumericValidator.h */,
+				C5916EAB7EAF4DB72C302D06C628F677 /* LKNumericValidator.m */,
+				D28A389271F222B2E503AE1BC407B4FB /* LKRegexValidator.h */,
+				D16AF68CC9B90591C9A7629E21C694CD /* LKRegexValidator.m */,
+				1C5661E66A560FC67E776EBE765C9A80 /* LKRequiredValidator.h */,
+				7E329B994AF9B87F2159BEC4431FAAAC /* LKRequiredValidator.m */,
+				13AED1168D72021319072467D9995B91 /* LKTextField.h */,
+				307D2176016533F054DF0E9950603DBB /* LKTextField.m */,
+				E22DC4772635A59810C0FAAC4F2DA544 /* LKValidator.h */,
+				6715459F09C3244A01A5BADC443AE950 /* LKValidator.m */,
+				EB290EFE08402BD97AED70DC05DED51F /* LKValidatorError.h */,
+				A27C5950AC4C8D22ED8F05351D607E02 /* LKValidatorError.m */,
+				B94770AD15A4049110A9A0A76C73F60E /* LKValidators.h */,
+				96FE2B0A172C38E154FC04FAE2A0F362 /* Support Files */,
+			);
+			name = InputValidators;
+			path = InputValidators;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -80,9 +176,21 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				39429DC821225D9AD47B746AE8CDC5D9 /* Products */,
+				4BBCEE837D685893174C0DFEFE900044 /* Pods */,
+				E955806803DBCCB33D7738B7FF78CAFC /* Products */,
 				07E5C939FEE82EE348138094C062857F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		96FE2B0A172C38E154FC04FAE2A0F362 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */,
+				94F69AD2FD0A16AA31A2E3D9C0388FF0 /* InputValidators-dummy.m */,
+				66B49933451FBE4F59F8C59ECB19605A /* InputValidators-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InputValidators";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -93,23 +201,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E955806803DBCCB33D7738B7FF78CAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3629474EA966891D14837C51F68B178 /* libInputValidators.a */,
+				AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3350A7DF41E29BE9ACA64B55449B15C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF76F06F433B0050A8A48C718BB3618 /* LKAlphaValidator.h in Headers */,
+				F22E6F01564472CD1CE35B2B20C119CC /* LKEmailValidator.h in Headers */,
+				25E4077BDF3CD5A02B668EF4FAB0DB19 /* LKLengthValidator.h in Headers */,
+				238A2E837A2CF7171398ABFBB57DB191 /* LKMultipleValidator.h in Headers */,
+				716F1FAB6A30DF26840464B21CA9839E /* LKNumericValidator.h in Headers */,
+				E146F11BDF48F749C14D25F21BE04DB2 /* LKRegexValidator.h in Headers */,
+				A239CFAB8A7BD27CE84CF50E539B7A8F /* LKRequiredValidator.h in Headers */,
+				0E8BE29AE62A1372BF39A542B598DC05 /* LKTextField.h in Headers */,
+				25A1A7B446190494C94EA12E30BE36AA /* LKValidator.h in Headers */,
+				29FD291C88F3C8B405BF1E5C3CE11171 /* LKValidatorError.h in Headers */,
+				CA6E1A322727318D11CB6C0C874163C4 /* LKValidators.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		E2BD502F1AE7540F69C8089AC1793617 /* Pods-Muslims */ = {
+		929145AE270EB897EDB1C7FA6823CC70 /* Pods-Muslims */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CFAE9928389A09C215CF5B491B1C89 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */;
+			buildConfigurationList = 87549585DE4614D3D2ADAAA83C4E8A23 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */;
 			buildPhases = (
-				6603CDF97E68434E8EB5AAF3AA1D7EB8 /* Sources */,
-				2E0386053F40163C72E3B6FB72D2B898 /* Frameworks */,
+				A1B6DB182C743A90633524E5678DA747 /* Sources */,
+				72B1AA198CD3BAF78A6907512CC5EE1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004E535E00AE3582730FE18A6776C9AD /* PBXTargetDependency */,
+			);
+			name = "Pods-Muslims";
+			productName = "Pods-Muslims";
+			productReference = AB7887048C3C2FD448481F88D154CC02 /* libPods-Muslims.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF836295027C03B274E59F52AEFA64D9 /* InputValidators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B470657785989E1BD79D7068F0827F8 /* Build configuration list for PBXNativeTarget "InputValidators" */;
+			buildPhases = (
+				79CB9FDC7331613D1E297956BA24EC16 /* Sources */,
+				8D2D73008B28E9EA784DBB6B05AE3ED1 /* Frameworks */,
+				3350A7DF41E29BE9ACA64B55449B15C4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Muslims";
-			productName = "Pods-Muslims";
-			productReference = 0D749270D67E5B423C3DAEC418351C33 /* libPods-Muslims.a */;
+			name = InputValidators;
+			productName = InputValidators;
+			productReference = E3629474EA966891D14837C51F68B178 /* libInputValidators.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,30 +285,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 39429DC821225D9AD47B746AE8CDC5D9 /* Products */;
+			productRefGroup = E955806803DBCCB33D7738B7FF78CAFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2BD502F1AE7540F69C8089AC1793617 /* Pods-Muslims */,
+				FF836295027C03B274E59F52AEFA64D9 /* InputValidators */,
+				929145AE270EB897EDB1C7FA6823CC70 /* Pods-Muslims */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6603CDF97E68434E8EB5AAF3AA1D7EB8 /* Sources */ = {
+		79CB9FDC7331613D1E297956BA24EC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46782C10B01AA102292A9B0A4C348BB /* Pods-Muslims-dummy.m in Sources */,
+				3823DEC873F222C07E72062EA41411D9 /* InputValidators-dummy.m in Sources */,
+				C44D1F91F19370A93CEC6FB95408EED0 /* LKAlphaValidator.m in Sources */,
+				4763B12598F998F5733D6DE5CD583D63 /* LKEmailValidator.m in Sources */,
+				BC782828C9A89A98892C74DEDC2ABEB4 /* LKLengthValidator.m in Sources */,
+				1E0C8804725B7D5FE42486CE12629D9E /* LKMultipleValidator.m in Sources */,
+				B2B6B977115E1FEEA039D85A363C81E2 /* LKNumericValidator.m in Sources */,
+				1C7EFA3D67B34C4925AE86822CD51372 /* LKRegexValidator.m in Sources */,
+				7C908C37E01C327C94EA1F61F0F2657E /* LKRequiredValidator.m in Sources */,
+				A73DAE6FD90BDC5EA91EF029E63D851D /* LKTextField.m in Sources */,
+				3DF2965C5D14C56D951B6F06D98C8BB2 /* LKValidator.m in Sources */,
+				64980CCA9680DECFC5B7D2FF5A02215A /* LKValidatorError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B6DB182C743A90633524E5678DA747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822EF54A1EDBA8A04FBCCDAB9BE35F74 /* Pods-Muslims-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		004E535E00AE3582730FE18A6776C9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InputValidators;
+			target = FF836295027C03B274E59F52AEFA64D9 /* InputValidators */;
+			targetProxy = 2CE75DAA8524EF22A473F93EC0231F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		07475C9AA78A20C86FEB2307ADB36A6E /* Release */ = {
+		094EE4355EF08D8ED35CBA170A9EC943 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 564B123669844F5BBEF4BBBAD25DD4A7 /* Pods-Muslims.release.xcconfig */;
+			baseConfigurationReference = E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -160,9 +344,32 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InputValidators/InputValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0F3AEB325E1F06DA782F930FA0342A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -171,7 +378,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -213,9 +420,32 @@
 			};
 			name = Release;
 		};
-		4FCB591382B8BA4EA5FB71C158291163 /* Debug */ = {
+		44938D073A8C5A9863A1DFC008725E90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29AD6A7E5393C4C6C2023FF84C56EE2F /* Pods-Muslims.debug.xcconfig */;
+			baseConfigurationReference = 564B123669844F5BBEF4BBBAD25DD4A7 /* Pods-Muslims.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		958B6371FE7D1A98519709910802D41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6273604410E807539515FE3DA5FB232 /* InputValidators.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -223,14 +453,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/InputValidators/InputValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -292,11 +522,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46CFAE9928389A09C215CF5B491B1C89 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */ = {
+		3B470657785989E1BD79D7068F0827F8 /* Build configuration list for PBXNativeTarget "InputValidators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FCB591382B8BA4EA5FB71C158291163 /* Debug */,
-				07475C9AA78A20C86FEB2307ADB36A6E /* Release */,
+				958B6371FE7D1A98519709910802D41C /* Debug */,
+				094EE4355EF08D8ED35CBA170A9EC943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87549585DE4614D3D2ADAAA83C4E8A23 /* Build configuration list for PBXNativeTarget "Pods-Muslims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3AEB325E1F06DA782F930FA0342A68 /* Debug */,
+				44938D073A8C5A9863A1DFC008725E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

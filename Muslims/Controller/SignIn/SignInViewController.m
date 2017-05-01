@@ -8,6 +8,7 @@
 
 #import "SignInViewController.h"
 #import "UIColor+Hex.h"
+#import <LKValidators.h>
 
 @interface SignInViewController () <UITextFieldDelegate> {
     UIButton* accessorySignInButton;
@@ -50,6 +51,26 @@
     
     return  TRUE;
 }
+    
+#pragma mark Actions
+    
+- (IBAction) onSignInClicked:(id)sender {
+    
+    LKValidator *validator = [LKEmailValidator validator];
+    NSError *error = nil;
+    BOOL isValid = [validator validate:_emailAddressTextField.text error:&error];
+    
+    if (isValid) {
+        if ([_passwordTextField.text isEqualToString:@""]) {
+            [self showMessage:@"Please enter password."];
+        } else {
+            //Sign In
+        }
+    } else {
+        [self showMessage:error.localizedFailureReason];
+    }
+}
+
 
 #pragma mark - Override methods
 
@@ -64,6 +85,7 @@
     [accessorySignInButton setTitleColor:[UIColor colorWithHex:0x525252] forState:UIControlStateNormal];
     self.emailAddressTextField.inputAccessoryView = accessorySignInButton;
     self.passwordTextField.inputAccessoryView = accessorySignInButton;
+    [accessorySignInButton addTarget:self action:@selector(onSignInClicked:) forControlEvents:UIControlEventTouchUpInside];
     [super initializeView];
 }
 

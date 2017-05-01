@@ -11,5 +11,6 @@
 @interface BaseViewController : UIViewController
 
 - (void) initializeView;
-
+- (void) showMessage:(NSString*) message;
+    
 @end

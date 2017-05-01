@@ -6,5 +6,6 @@ target 'Muslims' do
   # use_frameworks!
 
   # Pods for Muslims
-
+  pod 'InputValidators'
+  
 end

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '929145AE270EB897EDB1C7FA6823CC70'
-               BlueprintName = 'Pods-Muslims'
+               BlueprintIdentifier = 'FF836295027C03B274E59F52AEFA64D9'
+               BlueprintName = 'InputValidators'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-Muslims.a'>
+               BuildableName = 'libInputValidators.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
