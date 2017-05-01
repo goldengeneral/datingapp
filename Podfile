@@ -9,4 +9,9 @@ target 'Muslims' do
   pod 'InputValidators'
   pod 'TPKeyboardAvoiding'
   
+  # Facebook Kit
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  
 end
