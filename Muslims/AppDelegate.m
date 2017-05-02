@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //Set font for title
     [[UINavigationBar appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName: [UIColor colorWithHex:0x87888C],NSFontAttributeName: [UIFont fontWithName:@"Avenir-Light" size:20.0f]}];
+    NSDictionary *barButtonAppearanceDict = @{NSFontAttributeName : [UIFont fontWithName:@"Avenir-Light" size:17.0] , NSForegroundColorAttributeName: [UIColor colorWithHex:0x6A6A6A]};
+    [[UIBarButtonItem appearance] setTitleTextAttributes:barButtonAppearanceDict forState:UIControlStateNormal];
     
     return YES;
 }

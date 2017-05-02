@@ -1,18 +1,18 @@
 //
-//  SelfieVerificationViewController.m
+//  SignUpConfirmationViewController.m
 //  Muslims
 //
 //  Created by David Tong on 5/2/17.
 //  Copyright © 2017 Muslims. All rights reserved.
 //
 
-#import "SelfieVerificationViewController.h"
+#import "SignUpConfirmationViewController.h"
 
-@interface SelfieVerificationViewController ()
+@interface SignUpConfirmationViewController ()
 
 @end
 
-@implementation SelfieVerificationViewController
+@implementation SignUpConfirmationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,23 +21,25 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-    
+
 - (BOOL) prefersStatusBarHidden {
     
     return FALSE;
 }
-    
+
 #pragma mark - Override methods
-    
+
 - (void) initializeView {
     self.navigationController.navigationBarHidden = FALSE;
-    self.title = @"Sign Up";
+    self.title = @"Account";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Skip" style:UIBarButtonItemStylePlain target:self action:@selector(onSkipClicked)];
     [super initializeView];
 }
 
-- (IBAction)onCameraClicked:(id)sender {
-    [self performSegueWithIdentifier:@"SegueSignUpConfirmation" sender:nil];
-}
+#pragma mark - Actions
 
+- (void) onSkipClicked {
+    
+}
 
 @end

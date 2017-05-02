@@ -12,6 +12,7 @@
 		A82EDBDC1EB65C5C00727628 /* EnterPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82EDBDB1EB65C5C00727628 /* EnterPhoneViewController.m */; };
 		A82F5D0C1EB7A4E200F0AAA8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F5D0B1EB7A4E200F0AAA8 /* SignUpViewController.m */; };
 		A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F5D0E1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m */; };
+		A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A841A27F1EB8E44D0014ED69 /* SignUpConfirmationViewController.m */; };
 		A84798941EB5B62100E19C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798931EB5B62100E19C9E /* main.m */; };
 		A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798961EB5B62100E19C9E /* AppDelegate.m */; };
 		A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798991EB5B62100E19C9E /* SplashViewController.m */; };
@@ -36,6 +37,8 @@
 		A82F5D0B1EB7A4E200F0AAA8 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Controller/SignUp/SignUpViewController.m; sourceTree = "<group>"; };
 		A82F5D0D1EB7AE3200F0AAA8 /* SelfieVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelfieVerificationViewController.h; path = Controller/SignUp/SelfieVerificationViewController.h; sourceTree = "<group>"; };
 		A82F5D0E1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelfieVerificationViewController.m; path = Controller/SignUp/SelfieVerificationViewController.m; sourceTree = "<group>"; };
+		A841A27E1EB8E44D0014ED69 /* SignUpConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpConfirmationViewController.h; path = Controller/SignUp/SignUpConfirmationViewController.h; sourceTree = "<group>"; };
+		A841A27F1EB8E44D0014ED69 /* SignUpConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpConfirmationViewController.m; path = Controller/SignUp/SignUpConfirmationViewController.m; sourceTree = "<group>"; };
 		A847988F1EB5B62100E19C9E /* Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84798931EB5B62100E19C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A84798951EB5B62100E19C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				A82F5D0B1EB7A4E200F0AAA8 /* SignUpViewController.m */,
 				A82F5D0D1EB7AE3200F0AAA8 /* SelfieVerificationViewController.h */,
 				A82F5D0E1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m */,
+				A841A27E1EB8E44D0014ED69 /* SignUpConfirmationViewController.h */,
+				A841A27F1EB8E44D0014ED69 /* SignUpConfirmationViewController.m */,
 			);
 			name = SignUp;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				A82EDBD81EB6597700727628 /* ForgotPasswordViewController.m in Sources */,
 				A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */,
 				A82F5D0C1EB7A4E200F0AAA8 /* SignUpViewController.m in Sources */,
+				A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */,
 				A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */,
 				A82EDBDC1EB65C5C00727628 /* EnterPhoneViewController.m in Sources */,
 				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,
