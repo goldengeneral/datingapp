@@ -13,6 +13,8 @@
 		A82F5D0C1EB7A4E200F0AAA8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F5D0B1EB7A4E200F0AAA8 /* SignUpViewController.m */; };
 		A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F5D0E1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m */; };
 		A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A841A27F1EB8E44D0014ED69 /* SignUpConfirmationViewController.m */; };
+		A841A2841EB8F1620014ED69 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A841A2831EB8F1620014ED69 /* ProfileViewController.m */; };
+		A841A2871EB8F18F0014ED69 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A841A2851EB8F18F0014ED69 /* Profile.storyboard */; };
 		A84798941EB5B62100E19C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798931EB5B62100E19C9E /* main.m */; };
 		A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798961EB5B62100E19C9E /* AppDelegate.m */; };
 		A847989A1EB5B62100E19C9E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84798991EB5B62100E19C9E /* SplashViewController.m */; };
@@ -39,6 +41,9 @@
 		A82F5D0E1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelfieVerificationViewController.m; path = Controller/SignUp/SelfieVerificationViewController.m; sourceTree = "<group>"; };
 		A841A27E1EB8E44D0014ED69 /* SignUpConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpConfirmationViewController.h; path = Controller/SignUp/SignUpConfirmationViewController.h; sourceTree = "<group>"; };
 		A841A27F1EB8E44D0014ED69 /* SignUpConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpConfirmationViewController.m; path = Controller/SignUp/SignUpConfirmationViewController.m; sourceTree = "<group>"; };
+		A841A2821EB8F1620014ED69 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Controller/Profile/ProfileViewController.h; sourceTree = "<group>"; };
+		A841A2831EB8F1620014ED69 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Controller/Profile/ProfileViewController.m; sourceTree = "<group>"; };
+		A841A2861EB8F18F0014ED69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		A847988F1EB5B62100E19C9E /* Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84798931EB5B62100E19C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A84798951EB5B62100E19C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +127,15 @@
 			name = SignUp;
 			sourceTree = "<group>";
 		};
+		A841A2811EB8F1480014ED69 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A841A2821EB8F1620014ED69 /* ProfileViewController.h */,
+				A841A2831EB8F1620014ED69 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		A84798861EB5B62100E19C9E = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +167,7 @@
 				A84798951EB5B62100E19C9E /* AppDelegate.h */,
 				A84798961EB5B62100E19C9E /* AppDelegate.m */,
 				A847989B1EB5B62100E19C9E /* Main.storyboard */,
+				A841A2851EB8F18F0014ED69 /* Profile.storyboard */,
 				A847989E1EB5B62100E19C9E /* Assets.xcassets */,
 				A84798A01EB5B62100E19C9E /* LaunchScreen.storyboard */,
 				A84798A31EB5B62100E19C9E /* Info.plist */,
@@ -193,6 +208,7 @@
 		A84798AC1EB5B64C00E19C9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A841A2811EB8F1480014ED69 /* Profile */,
 				A82F5D091EB7A4A900F0AAA8 /* SignUp */,
 				A82EDBD91EB65C3D00727628 /* EnterPhone */,
 				A82EDBD51EB6594A00727628 /* ForgotPassword */,
@@ -337,6 +353,7 @@
 			files = (
 				A84798BC1EB5BD5100E19C9E /* Heiti.ttf in Resources */,
 				A84798A21EB5B62100E19C9E /* LaunchScreen.storyboard in Resources */,
+				A841A2871EB8F18F0014ED69 /* Profile.storyboard in Resources */,
 				A847989F1EB5B62100E19C9E /* Assets.xcassets in Resources */,
 				A847989D1EB5B62100E19C9E /* Main.storyboard in Resources */,
 			);
@@ -406,6 +423,7 @@
 				A82F5D0C1EB7A4E200F0AAA8 /* SignUpViewController.m in Sources */,
 				A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */,
 				A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */,
+				A841A2841EB8F1620014ED69 /* ProfileViewController.m in Sources */,
 				A82EDBDC1EB65C5C00727628 /* EnterPhoneViewController.m in Sources */,
 				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,
 				A84798941EB5B62100E19C9E /* main.m in Sources */,
@@ -415,6 +433,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A841A2851EB8F18F0014ED69 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A841A2861EB8F18F0014ED69 /* Base */,
+			);
+			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
 		A847989B1EB5B62100E19C9E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
