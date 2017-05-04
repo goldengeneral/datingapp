@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "LeftMenuViewController.h"
 #import "MuslimsConstant.h"
 #import <LGSideMenuController/LGSideMenuController.h>
 #import <LGSideMenuController/UIViewController+LGSideMenuController.h>
@@ -37,7 +38,7 @@
 - (void) displayDashboard {
     
     UIViewController *rootViewController = [MAIN_STORY instantiateViewControllerWithIdentifier:@"DashboardViewController"];
-    UITableViewController *leftViewController = [UITableViewController new];
+    UITableViewController *leftViewController = [MAIN_STORY instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     
@@ -45,10 +46,7 @@
                                                                                            leftViewController:leftViewController
                                                                                           rightViewController:nil];
     
-    sideMenuController.leftViewWidth = 250.0;
-    sideMenuController.leftViewPresentationStyle = LGSideMenuPresentationStyleScaleFromBig;
-    
-    sideMenuController.rightViewWidth = 100.0;
+    sideMenuController.leftViewWidth = 170.0;
     sideMenuController.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideBelow;
     UIWindow* window = [[[UIApplication sharedApplication] delegate] window];
     window.rootViewController = sideMenuController;

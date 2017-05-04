@@ -29,6 +29,7 @@
 		A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */; };
 		A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */; };
 		A88A7E741EBB7A0900AA5B3D /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */; };
+		A88A7E771EBB867400AA5B3D /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E761EBB867400AA5B3D /* LeftMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		A88A7E721EBB7A0900AA5B3D /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = Controller/Dashboard/DashboardViewController.h; sourceTree = "<group>"; };
 		A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = Controller/Dashboard/DashboardViewController.m; sourceTree = "<group>"; };
+		A88A7E751EBB867400AA5B3D /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuViewController.h; path = Controller/Dashboard/LeftMenuViewController.h; sourceTree = "<group>"; };
+		A88A7E761EBB867400AA5B3D /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuViewController.m; path = Controller/Dashboard/LeftMenuViewController.m; sourceTree = "<group>"; };
 		FFE7D4C442AB5136CEB054C3 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -309,6 +312,8 @@
 			children = (
 				A88A7E721EBB7A0900AA5B3D /* DashboardViewController.h */,
 				A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */,
+				A88A7E751EBB867400AA5B3D /* LeftMenuViewController.h */,
+				A88A7E761EBB867400AA5B3D /* LeftMenuViewController.m */,
 			);
 			name = Dashboard;
 			sourceTree = "<group>";
@@ -449,6 +454,7 @@
 				A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */,
 				A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */,
 				A88A7E741EBB7A0900AA5B3D /* DashboardViewController.m in Sources */,
+				A88A7E771EBB867400AA5B3D /* LeftMenuViewController.m in Sources */,
 				A841A2841EB8F1620014ED69 /* ProfileViewController.m in Sources */,
 				A82EDBDC1EB65C5C00727628 /* EnterPhoneViewController.m in Sources */,
 				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,

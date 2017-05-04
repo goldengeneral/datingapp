@@ -7,6 +7,7 @@
 //
 
 #import "DashboardViewController.h"
+#import <LGSideMenuController/UIViewController+LGSideMenuController.h>
 
 @interface DashboardViewController ()
 
@@ -38,7 +39,7 @@
 #pragma mark Actions
 
 - (IBAction) onMenuClicked:(id)sender {
-    
+    [[self sideMenuController] showLeftView];
 }
 
 @end
