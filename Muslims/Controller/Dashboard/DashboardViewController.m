@@ -10,6 +10,7 @@
 #import <LGSideMenuController/UIViewController+LGSideMenuController.h>
 #import <ZLSwipeableView/ZLSwipeableView.h>
 #import "CardView.h"
+#import "RightView.h"
 
 @interface DashboardViewController ()<ZLSwipeableViewDataSource, ZLSwipeableViewDelegate>
 
@@ -88,6 +89,12 @@
     self.navigationItem.hidesBackButton = TRUE;
     self.navigationItem.backBarButtonItem = nil;
     self.navigationItem.leftBarButtonItem = backBarButtonItem;
+    RightView *rightView =
+    [[NSBundle mainBundle] loadNibNamed:@"RightView" owner:self options:nil][0];
+    UIBarButtonItem* rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightView];
+    UIBarButtonItem *spacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    spacer.width = -10;
+    self.navigationItem.rightBarButtonItems = @[spacer, rightBarButtonItem];
 }
 
 #pragma mark Actions

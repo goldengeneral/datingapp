@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RightView">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76k-ye-loG">
+                    <rect key="frame" x="11" y="12" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="kLg-lI-g3u"/>
+                        <constraint firstAttribute="width" constant="22" id="s94-MY-Go1"/>
+                    </constraints>
+                    <state key="normal" image="Messaging-Chat-icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FK7-5Z-OW1">
+                    <rect key="frame" x="48" y="11" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="1ko-19-kPM"/>
+                        <constraint firstAttribute="width" constant="22" id="6jT-8G-F5A"/>
+                    </constraints>
+                    <state key="normal" image="camping-equipment-matches-icon"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPQ-YU-DyX">
+                    <rect key="frame" x="64" y="3" width="21" height="21"/>
+                    <color key="backgroundColor" red="1" green="0.38431372549019605" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="ke7-MG-vyq"/>
+                        <constraint firstAttribute="height" constant="21" id="yps-fS-6Zz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="8"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FK7-5Z-OW1" secondAttribute="bottom" constant="10" id="7q9-Qo-Rzo"/>
+                <constraint firstItem="76k-ye-loG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="Kq9-21-rBI"/>
+                <constraint firstItem="JPQ-YU-DyX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="ZwK-HZ-31a"/>
+                <constraint firstItem="FK7-5Z-OW1" firstAttribute="leading" secondItem="76k-ye-loG" secondAttribute="trailing" constant="15" id="gdx-IT-S3X"/>
+                <constraint firstAttribute="trailing" secondItem="JPQ-YU-DyX" secondAttribute="trailing" constant="13" id="iUv-0s-pSX"/>
+                <constraint firstAttribute="bottom" secondItem="76k-ye-loG" secondAttribute="bottom" constant="9" id="xcd-Di-DGs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="badgeNumberView" destination="JPQ-YU-DyX" id="DQs-ah-8GS"/>
+            </connections>
+            <point key="canvasLocation" x="-178" y="-122.5"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RPz-vt-P3c">
+            <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" image="Messaging-Chat-icon"/>
+        </button>
+    </objects>
+    <resources>
+        <image name="Messaging-Chat-icon" width="22" height="21"/>
+        <image name="camping-equipment-matches-icon" width="23" height="22"/>
+    </resources>
+</document>

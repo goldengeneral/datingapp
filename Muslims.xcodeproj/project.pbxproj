@@ -32,6 +32,8 @@
 		A88A7E771EBB867400AA5B3D /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E761EBB867400AA5B3D /* LeftMenuViewController.m */; };
 		A88A7E7C1EBB95A200AA5B3D /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88A7E7B1EBB95A200AA5B3D /* CardView.xib */; };
 		A88A7E7F1EBB985900AA5B3D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E7E1EBB985900AA5B3D /* CardView.m */; };
+		A88A7E821EBB98C400AA5B3D /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E811EBB98C400AA5B3D /* RightView.m */; };
+		A88A7E841EBB98D600AA5B3D /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88A7E831EBB98D600AA5B3D /* RightView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,9 @@
 		A88A7E7B1EBB95A200AA5B3D /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardView.xib; path = Controller/Dashboard/CardView.xib; sourceTree = "<group>"; };
 		A88A7E7D1EBB985900AA5B3D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = Controller/Dashboard/CardView.h; sourceTree = "<group>"; };
 		A88A7E7E1EBB985900AA5B3D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = Controller/Dashboard/CardView.m; sourceTree = "<group>"; };
+		A88A7E801EBB98C400AA5B3D /* RightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightView.h; path = Controller/Dashboard/RightView.h; sourceTree = "<group>"; };
+		A88A7E811EBB98C400AA5B3D /* RightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightView.m; path = Controller/Dashboard/RightView.m; sourceTree = "<group>"; };
+		A88A7E831EBB98D600AA5B3D /* RightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RightView.xib; path = Controller/Dashboard/RightView.xib; sourceTree = "<group>"; };
 		FFE7D4C442AB5136CEB054C3 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -318,6 +323,9 @@
 				A88A7E7D1EBB985900AA5B3D /* CardView.h */,
 				A88A7E7E1EBB985900AA5B3D /* CardView.m */,
 				A88A7E7B1EBB95A200AA5B3D /* CardView.xib */,
+				A88A7E801EBB98C400AA5B3D /* RightView.h */,
+				A88A7E811EBB98C400AA5B3D /* RightView.m */,
+				A88A7E831EBB98D600AA5B3D /* RightView.xib */,
 				A88A7E721EBB7A0900AA5B3D /* DashboardViewController.h */,
 				A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */,
 				A88A7E751EBB867400AA5B3D /* LeftMenuViewController.h */,
@@ -389,6 +397,7 @@
 			files = (
 				A84798BC1EB5BD5100E19C9E /* Heiti.ttf in Resources */,
 				A84798A21EB5B62100E19C9E /* LaunchScreen.storyboard in Resources */,
+				A88A7E841EBB98D600AA5B3D /* RightView.xib in Resources */,
 				A88A7E7C1EBB95A200AA5B3D /* CardView.xib in Resources */,
 				A841A2871EB8F18F0014ED69 /* Profile.storyboard in Resources */,
 				A847989F1EB5B62100E19C9E /* Assets.xcassets in Resources */,
@@ -457,6 +466,7 @@
 				A84798971EB5B62100E19C9E /* AppDelegate.m in Sources */,
 				A82EDBD81EB6597700727628 /* ForgotPasswordViewController.m in Sources */,
 				A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */,
+				A88A7E821EBB98C400AA5B3D /* RightView.m in Sources */,
 				A88A7E7F1EBB985900AA5B3D /* CardView.m in Sources */,
 				A82F5D0C1EB7A4E200F0AAA8 /* SignUpViewController.m in Sources */,
 				A841A28A1EB8F5D20014ED69 /* Seeking1ViewController.m in Sources */,
