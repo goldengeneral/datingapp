@@ -8,6 +8,7 @@
 
 #import "DashboardViewController.h"
 #import <LGSideMenuController/UIViewController+LGSideMenuController.h>
+#import <ZLSwipeableView/ZLSwipeableView.h>
 
 @interface DashboardViewController ()
 

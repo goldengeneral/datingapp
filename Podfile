@@ -14,5 +14,6 @@ target 'Muslims' do
   pod 'FBSDKShareKit'
   pod 'FBSDKLoginKit'
   pod 'LGSideMenuController'
+  pod 'ZLSwipeableView'
   
 end

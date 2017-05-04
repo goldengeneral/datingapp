@@ -14,6 +14,7 @@ PODS:
   - InputValidators (1.0.0)
   - LGSideMenuController (2.0.9)
   - TPKeyboardAvoiding (1.3.1)
+  - ZLSwipeableView (0.0.8)
 
 DEPENDENCIES:
   - FBSDKCoreKit
@@ -22,6 +23,7 @@ DEPENDENCIES:
   - InputValidators
   - LGSideMenuController
   - TPKeyboardAvoiding
+  - ZLSwipeableView
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -31,7 +33,8 @@ SPEC CHECKSUMS:
   InputValidators: b278d3042d23893533d688cfb1563370d4cb184e
   LGSideMenuController: 14299cd8a1c6f4c41848baf3352df9acb41165f8
   TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  ZLSwipeableView: df385760ff4838935cdbcb62878ac5acd7355949
 
-PODFILE CHECKSUM: 9bc171c750e6a0bea73d22a9ca27ac0982c99980
+PODFILE CHECKSUM: fdf8c6f81df02305c9f14546b46e3eff24d5b58a
 
 COCOAPODS: 1.2.0
