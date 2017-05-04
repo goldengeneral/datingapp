@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardView">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 2" translatesAutoresizingMaskIntoConstraints="NO" id="wUJ-1y-NhE">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="264"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06U-g6-cGb">
+                    <rect key="frame" x="10" y="293" width="31" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="31" id="MyQ-vq-lq5"/>
+                        <constraint firstAttribute="height" constant="31" id="YPI-4E-mvS"/>
+                    </constraints>
+                    <state key="normal" image="Oval Copy 2"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Tong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQP-tr-1io">
+                    <rect key="frame" x="47" y="298" width="149" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="eWW-xu-nvg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="20"/>
+                    <color key="textColor" red="0.1647058824" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ws4-2F-fR4">
+                    <rect key="frame" x="281" y="272" width="61" height="61"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="61" id="7xi-fm-RA1"/>
+                        <constraint firstAttribute="height" constant="61" id="rmp-20-xYc"/>
+                    </constraints>
+                    <state key="normal" image="hyper_filled copy"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wUJ-1y-NhE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5wS-wh-XOE"/>
+                <constraint firstAttribute="trailing" secondItem="Ws4-2F-fR4" secondAttribute="trailing" constant="8" id="9M9-zI-LEb"/>
+                <constraint firstItem="Ws4-2F-fR4" firstAttribute="leading" secondItem="eQP-tr-1io" secondAttribute="trailing" constant="85" id="DtU-7I-4pq"/>
+                <constraint firstItem="wUJ-1y-NhE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HY5-uY-raI"/>
+                <constraint firstItem="eQP-tr-1io" firstAttribute="leading" secondItem="06U-g6-cGb" secondAttribute="trailing" constant="6" id="QQW-DX-Rik"/>
+                <constraint firstItem="06U-g6-cGb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="TQd-mI-sHQ"/>
+                <constraint firstItem="06U-g6-cGb" firstAttribute="top" secondItem="wUJ-1y-NhE" secondAttribute="bottom" constant="29" id="Yl1-fr-Nga"/>
+                <constraint firstItem="eQP-tr-1io" firstAttribute="top" secondItem="wUJ-1y-NhE" secondAttribute="bottom" constant="34" id="aLk-tJ-U5x"/>
+                <constraint firstItem="Ws4-2F-fR4" firstAttribute="top" secondItem="wUJ-1y-NhE" secondAttribute="bottom" constant="8" id="iZR-es-ox6"/>
+                <constraint firstAttribute="trailing" secondItem="wUJ-1y-NhE" secondAttribute="trailing" id="lej-bt-6up"/>
+                <constraint firstAttribute="bottom" secondItem="Ws4-2F-fR4" secondAttribute="bottom" constant="17" id="yeD-5J-ZA5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="11" y="-32"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 2" width="350" height="264"/>
+        <image name="Oval Copy 2" width="31" height="31"/>
+        <image name="hyper_filled copy" width="61" height="61"/>
+    </resources>
+</document>

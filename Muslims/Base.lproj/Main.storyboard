@@ -387,6 +387,9 @@ MATCH</string>
                             <constraint firstItem="z1d-eu-faX" firstAttribute="top" secondItem="SRc-hf-vWS" secondAttribute="top" id="vZK-ca-ZAm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="swipeContentView" destination="JFV-Cr-UzE" id="znx-O3-bLB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSd-hH-ZrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
