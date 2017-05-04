@@ -28,6 +28,7 @@
 		A84798BC1EB5BD5100E19C9E /* Heiti.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A84798BB1EB5BD5100E19C9E /* Heiti.ttf */; };
 		A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */; };
 		A889ECDD1EB5CA130016BB00 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */; };
+		A88A7E741EBB7A0900AA5B3D /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,8 @@
 		A889ECD71EB5C0FE0016BB00 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = Controller/SignIn/SignInViewController.m; sourceTree = "<group>"; };
 		A889ECDB1EB5CA130016BB00 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		A889ECDC1EB5CA130016BB00 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A88A7E721EBB7A0900AA5B3D /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = Controller/Dashboard/DashboardViewController.h; sourceTree = "<group>"; };
+		A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = Controller/Dashboard/DashboardViewController.m; sourceTree = "<group>"; };
 		FFE7D4C442AB5136CEB054C3 /* Pods-Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslims.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muslims/Pods-Muslims.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +221,7 @@
 		A84798AC1EB5B64C00E19C9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A88A7E711EBB79BB00AA5B3D /* Dashboard */,
 				A841A2811EB8F1480014ED69 /* Profile */,
 				A82F5D091EB7A4A900F0AAA8 /* SignUp */,
 				A82EDBD91EB65C3D00727628 /* EnterPhone */,
@@ -298,6 +302,15 @@
 			);
 			name = UIColor;
 			path = Lib/UIColor;
+			sourceTree = "<group>";
+		};
+		A88A7E711EBB79BB00AA5B3D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A88A7E721EBB7A0900AA5B3D /* DashboardViewController.h */,
+				A88A7E731EBB7A0900AA5B3D /* DashboardViewController.m */,
+			);
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +448,7 @@
 				A841A28D1EB8F5EB0014ED69 /* Seeking2ViewController.m in Sources */,
 				A841A2801EB8E44D0014ED69 /* SignUpConfirmationViewController.m in Sources */,
 				A82F5D0F1EB7AE3200F0AAA8 /* SelfieVerificationViewController.m in Sources */,
+				A88A7E741EBB7A0900AA5B3D /* DashboardViewController.m in Sources */,
 				A841A2841EB8F1620014ED69 /* ProfileViewController.m in Sources */,
 				A82EDBDC1EB65C5C00727628 /* EnterPhoneViewController.m in Sources */,
 				A889ECD81EB5C0FE0016BB00 /* SignInViewController.m in Sources */,

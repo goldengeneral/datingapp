@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LGSideMenuController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Muslims.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F2A0CDC01DAB3FB554485657CFF5507</key>
+		<key>4677FC1D0A0B1FDA014FED97B81C4B2B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF7CD4BC5FF5E30F63666803C8CF76FB</key>
+		<key>B14D1374F2F7B0B2A5E8E2B263368F7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>FB06743FD599C11559E52D2D552AEE80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDB5FCEBA2A8D840AE929328301C1073</key>
 		<dict>
 			<key>primary</key>
 			<true/>

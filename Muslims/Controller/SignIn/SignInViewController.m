@@ -65,6 +65,8 @@
             [self showMessage:@"Please enter password."];
         } else {
             //Sign In
+            [self.view endEditing:TRUE];
+            [self displayDashboard];
         }
     } else {
         [self showMessage:error.localizedFailureReason];
@@ -88,6 +90,8 @@
     [accessorySignInButton addTarget:self action:@selector(onSignInClicked:) forControlEvents:UIControlEventTouchUpInside];
     [super initializeView];
 }
+
+#pragma mark - Helper methods
 
 
 @end

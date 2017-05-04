@@ -102,6 +102,35 @@
             </objects>
             <point key="canvasLocation" x="1805.5999999999999" y="120.98950524737631"/>
         </scene>
+        <!--Dashboard View Controller-->
+        <scene sceneID="ah9-Lt-gJL">
+            <objects>
+                <viewController storyboardIdentifier="DashboardViewController" id="g9H-nR-isz" customClass="DashboardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pGE-SE-k9m"/>
+                        <viewControllerLayoutGuide type="bottom" id="bIk-Jf-nma"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SRc-hf-vWS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blur" translatesAutoresizingMaskIntoConstraints="NO" id="z1d-eu-faX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z1d-eu-faX" secondAttribute="trailing" id="3LN-Pz-aHj"/>
+                            <constraint firstItem="bIk-Jf-nma" firstAttribute="top" secondItem="z1d-eu-faX" secondAttribute="bottom" id="Ki9-Dp-STI"/>
+                            <constraint firstItem="z1d-eu-faX" firstAttribute="leading" secondItem="SRc-hf-vWS" secondAttribute="leading" id="uNd-LC-bSX"/>
+                            <constraint firstItem="z1d-eu-faX" firstAttribute="top" secondItem="SRc-hf-vWS" secondAttribute="top" id="vZK-ca-ZAm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cSd-hH-ZrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2533.5999999999999" y="-555.47226386806597"/>
+        </scene>
         <!--Sign In View Controller-->
         <scene sceneID="kde-Sf-FbF">
             <objects>
@@ -205,6 +234,7 @@
                     <connections>
                         <outlet property="emailAddressTextField" destination="QXY-c2-sWb" id="o06-iE-hkL"/>
                         <outlet property="passwordTextField" destination="Azk-hd-6hy" id="d1l-qi-1oN"/>
+                        <segue destination="g9H-nR-isz" kind="show" identifier="SegueDashBoard" id="lsn-tr-F5M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgF-VR-ybT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1091,6 +1121,7 @@ Smile!</string>
         </scene>
     </scenes>
     <resources>
+        <image name="Blur" width="375" height="667"/>
         <image name="bg_login" width="375" height="387"/>
         <image name="bg_textfields" width="375" height="108"/>
         <image name="camera" width="60" height="59"/>

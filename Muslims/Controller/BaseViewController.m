@@ -7,6 +7,9 @@
 //
 
 #import "BaseViewController.h"
+#import "MuslimsConstant.h"
+#import <LGSideMenuController/LGSideMenuController.h>
+#import <LGSideMenuController/UIViewController+LGSideMenuController.h>
 
 @interface BaseViewController ()
 
@@ -30,6 +33,27 @@
 }
 
 #pragma mark - Helper methods
+
+- (void) displayDashboard {
+    
+    UIViewController *rootViewController = [MAIN_STORY instantiateViewControllerWithIdentifier:@"DashboardViewController"];
+    UITableViewController *leftViewController = [UITableViewController new];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    LGSideMenuController *sideMenuController = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController
+                                                                                           leftViewController:leftViewController
+                                                                                          rightViewController:nil];
+    
+    sideMenuController.leftViewWidth = 250.0;
+    sideMenuController.leftViewPresentationStyle = LGSideMenuPresentationStyleScaleFromBig;
+    
+    sideMenuController.rightViewWidth = 100.0;
+    sideMenuController.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideBelow;
+    UIWindow* window = [[[UIApplication sharedApplication] delegate] window];
+    window.rootViewController = sideMenuController;
+    [window makeKeyAndVisible];
+}
 
 - (void) initializeView {
     UIButton* backButton = [UIButton buttonWithType:UIButtonTypeCustom];

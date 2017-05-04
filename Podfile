@@ -13,5 +13,6 @@ target 'Muslims' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKShareKit'
   pod 'FBSDKLoginKit'
+  pod 'LGSideMenuController'
   
 end

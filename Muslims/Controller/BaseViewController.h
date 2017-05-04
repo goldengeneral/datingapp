@@ -12,5 +12,6 @@
 
 - (void) initializeView;
 - (void) showMessage:(NSString*) message;
-    
+- (void) displayDashboard;
+
 @end

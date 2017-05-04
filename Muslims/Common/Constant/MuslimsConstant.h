@@ -12,6 +12,7 @@
 //Segue define identifier
 
 #define segueMainScreen @"segueMainScreen"
+#define MAIN_STORY [UIStoryboard storyboardWithName:@"Main" bundle:nil]
 
 
 #endif /* MuslimsConstant_h */
